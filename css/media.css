@@ -1,0 +1,186 @@
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+  .heading-home h1 {
+    font-size: 2rem;
+  }
+  
+  .heading-home {
+    width: 90%;
+  }
+  
+  .about-card {
+    padding: 20px;
+  }
+  
+  .img-about {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .service-card {
+    padding: 20px;
+  }
+  
+  .card-blog {
+    margin-bottom: 30px;
+  }
+  
+  .contact-container {
+    padding: 20px !important;
+  }
+  
+  .btn-primary {
+    width: 100% !important;
+  }
+  
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .heading-home h1 {
+    font-size: 2.5rem;
+  }
+  
+  .about-card {
+    padding: 30px;
+  }
+  
+  .service-card {
+    padding: 25px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .heading-home h1 {
+    font-size: 3rem;
+  }
+  
+  .about-card {
+    padding: 40px;
+  }
+  
+  .service-card {
+    padding: 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .heading-home h1 {
+    font-size: 3.5rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .heading-home h1 {
+    font-size: 4rem;
+  }
+}
+
+/* Common responsive styles for all screen sizes */
+@media (max-width: 991px) {
+  .dropdown-menu {
+    position: static;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s;
+    background-color: transparent;
+  }
+
+  .nav-item.dropdown.show > .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .dropdown-menu a {
+    color: white !important;
+    transition: color 0.3s ease;
+  }
+
+  .dropdown-menu a:hover {
+    color: #ffcc00;
+  }
+
+  .dropdown-submenu {
+    position: relative;
+  }
+
+  .dropdown-submenu .dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.4s;
+  }
+
+  .dropdown-submenu.show > .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  /* Adjust navbar for mobile */
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Adjust card layouts */
+  .card {
+    margin-bottom: 30px;
+  }
+  
+  /* Adjust counter section */
+  .card-counter {
+    margin-bottom: 30px;
+  }
+  
+  /* Adjust testimonial section */
+  .carousel-item img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  
+  /* Adjust contact form */
+  .contact-container {
+    flex-direction: column;
+  }
+  
+  .contact-container > div {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+}
+
+/* Adjust font sizes for better readability on mobile */
+@media (max-width: 767px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 1.25rem; }
+  h5 { font-size: 1.1rem; }
+  p { font-size: 1rem; }
+  
+  /* Adjust spacing for mobile */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Adjust margins for mobile */
+  .mt-5 { margin-top: 2rem !important; }
+  .mb-5 { margin-bottom: 2rem !important; }
+  .py-5 { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+}
